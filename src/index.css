@@ -17,7 +17,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
-.letter-box {
+.row > div {
   display: block;
   width: 60px;
   height: 60px;
@@ -28,4 +28,17 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 2.5em;
+}
+
+.row > div.green {
+  background: #5ac85a;
+  border-color: #5ac85a;
+}
+.row > div.gray {
+  background: #a1a1a1;
+  border-color: #a1a1a1;
+}
+.row > div.yellow {
+  background: #e2cc68;
+  border-color: #e2cc68;
 }
