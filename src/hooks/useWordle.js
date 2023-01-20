@@ -74,7 +74,7 @@ const useWordle = (solution) => {
         }
 
         if (e.key === 'Enter') {
-            if (turn > 6) {
+            if (turn > 5) {
                 console.log('no more turns')
                 return
             }
