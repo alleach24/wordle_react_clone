@@ -11,7 +11,9 @@ export default function Wordle({ solution }) {
     }, [handleKeyup])
 
     return (
-        <div>Wordle
+        <div>
+            <h1>Wordle</h1>
+            <p>solution = { solution }</p>
             <p>current guess = {currentGuess}</p>
         </div>
 
